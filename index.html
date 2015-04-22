@@ -121,6 +121,115 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-study-sal-paper-纹理抑制和连续分布估计" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/04/22/study-sal-paper-纹理抑制和连续分布估计/" class="article-date">
+  	<time datetime="2015-04-22T09:25:18.000Z" itemprop="datePublished">2015-04-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/04/22/study-sal-paper-纹理抑制和连续分布估计/">基于纹理抑制和连续分布估计的显著性目标检测方法</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>问题：<br>边界模糊<br>内部纹理对目标整体性的破坏</p>
+</li>
+<li><p>关键字：<br>纹理抑制<br>连续分布估计</p>
+</li>
+<li><p>方法：<br>双边滤波预处理-&gt;平滑纹理扰动，保留主要边缘<br>SLIC超像素分割<br>多维正态分布提取分割区域的特征<br>Wassserstein距离计算区域相似度<br>结合<strong>局部</strong>和<strong>全局</strong></p>
+</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+  
+    <article id="post-sublime-package-ctrl" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/04/22/sublime-package-ctrl/" class="article-date">
+  	<time datetime="2015-04-22T09:13:00.000Z" itemprop="datePublished">2015-04-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/04/22/sublime-package-ctrl/">sublime text install package control</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <pre><code><span class="keyword">import</span> urllib.request,os;
+pf = <span class="string">'Package Control.sublime-package'</span>; 
+ipp = sublime.installed_packages_path(); 
+urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); 
+open(os.path.<span class="keyword">join</span>(ipp, pf), <span class="string">'wb'</span>).<span class="keyword">write</span>(urllib.request.urlopen(<span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).<span class="keyword">read</span>())
+</code></pre>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+  
     <article id="post-github-pages" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">

@@ -3,17 +3,26 @@
 <head>
   <meta charset="utf-8">
   
-  <title>github pages | 郭十二</title>
+  <title>sublime text install package control | 郭十二</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1. Install git安装git关联github账号在github里添加本机Key">
+  <meta name="description" content="import urllib.request,os;
+pf = &apos;Package Control.sublime-package&apos;; 
+ipp = sublime.installed_packages_path(); 
+urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) )">
 <meta property="og:type" content="article">
-<meta property="og:title" content="github pages">
-<meta property="og:url" content="http://felacebo.github.io/2015/04/22/github-pages/index.html">
+<meta property="og:title" content="sublime text install package control">
+<meta property="og:url" content="http://felacebo.github.io/2015/04/22/sublime-package-ctrl/index.html">
 <meta property="og:site_name" content="郭十二">
-<meta property="og:description" content="1. Install git安装git关联github账号在github里添加本机Key">
+<meta property="og:description" content="import urllib.request,os;
+pf = &apos;Package Control.sublime-package&apos;; 
+ipp = sublime.installed_packages_path(); 
+urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) )">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="github pages">
-<meta name="twitter:description" content="1. Install git安装git关联github账号在github里添加本机Key">
+<meta name="twitter:title" content="sublime text install package control">
+<meta name="twitter:description" content="import urllib.request,os;
+pf = &apos;Package Control.sublime-package&apos;; 
+ipp = sublime.installed_packages_path(); 
+urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) )">
   
     <link rel="alternative" href="/atom.xml" title="郭十二" type="application/atom+xml">
   
@@ -119,11 +128,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-github-pages" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-sublime-package-ctrl" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/04/22/github-pages/" class="article-date">
-  	<time datetime="2015-04-22T08:10:53.000Z" itemprop="datePublished">2015-04-22</time>
+      <a href="/2015/04/22/sublime-package-ctrl/" class="article-date">
+  	<time datetime="2015-04-22T09:13:00.000Z" itemprop="datePublished">2015-04-22</time>
 </a>
     </div>
   
@@ -136,7 +145,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      github pages
+      sublime text install package control
     </h1>
   
 
@@ -152,16 +161,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="1-_Install_git">1. Install git</h3><p>安装git<br>关联github账号<br>在github里添加本机Key <a id="more"></a></p>
-<h3 id="2-_Install_nodejs">2. Install nodejs</h3><p>一键安装</p>
-<h3 id="3-_Install_hexo">3. Install hexo</h3><p>右键-&gt;Git Bash<br>npm install -g hexo<br>npm install hexo—save //类似这个会有提示<br>重启<br>hexo init<br>修改_config.yml //设置远程repo为github</p>
-<pre><code><span class="attribute">deploy</span>:
-<span class="attribute">type</span>: git
-<span class="attribute">repo</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:felacebo/felacebo.github.io.git
-<span class="attribute">branch</span>: master
-</code></pre><p>hexo new “first post” //会在source_posts生成”first-post.md”<br>hexo g //generate<br>hexo s //deploy to local server<br>hexo d //deploy to remote server</p>
-<p><strong>Enjoy it ~</strong></p>
-
+        <pre><code><span class="keyword">import</span> urllib.request,os;
+pf = <span class="string">'Package Control.sublime-package'</span>; 
+ipp = sublime.installed_packages_path(); 
+urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); 
+open(os.path.<span class="keyword">join</span>(ipp, pf), <span class="string">'wb'</span>).<span class="keyword">write</span>(urllib.request.urlopen(<span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).<span class="keyword">read</span>())
+</code></pre>
       
     </div>
     
@@ -170,18 +175,18 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/04/22/sublime-package-ctrl/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2015/04/22/study-sal-paper-纹理抑制和连续分布估计/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          sublime text install package control
+          基于纹理抑制和连续分布估计的显著性目标检测方法
         
       </div>
     </a>
   
   
-    <a href="/2015/04/22/修改右键菜单/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">修改右键菜单</div>
+    <a href="/2015/04/22/github-pages/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">github pages</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
